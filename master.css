@@ -1,0 +1,116 @@
+body {
+  background-color: #0d1a2d;
+  height: 900px;
+  width: 1440px;
+}
+
+#eq {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+}
+#name {
+  display: inline;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  margin-left: 4px;
+}
+#eq:hover {
+  color: #09f2f6;
+}
+#name:hover {
+  color: #09f2f6;
+}
+h3 {
+  color: #6e85a4;
+  font-weight: 100;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+.clock > span {
+  font-family: "Outfit", sans-serif;
+  color: #88a7d5;
+}
+.clock {
+  height: 20px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.jewel {
+  display: inline;
+  height: 20px;
+}
+.jewel > img {
+  height: 20px;
+  vertical-align: middle;
+}
+.clock > img {
+  height: 20px;
+  vertical-align: bottom;
+}
+.jewel > span {
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  color: #09f2f6;
+  margin-left: 2px;
+}
+h4 {
+  display: inline;
+  color: #88a7d5;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.avartar {
+  height: 20px;
+  font-size: 18px;
+}
+.shad {
+  margin-left: 40%;
+  border-radius: 10px;
+  margin-top: 5%;
+  height: 560px;
+  width: 320px;
+  }
+.card {
+  background-color: #15273f;
+  height: 540px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 15px 20px 0px #0c1729, -15px 20px 0px #0c1729;
+
+  padding: 20px;
+}
+#avatar {
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid white;
+  vertical-align: middle;
+}
+.img:hover {
+  background: url("icon-view.svg") no-repeat center;
+  display: inline-block;
+  background-color: #09f2f6;
+}
+.img {
+  background: url("image-equilibrium.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+
+hr {
+  border: 0.1px solid hsl(215, 32%, 27%);
+  height: 0.1px;
+  margin: 15px;
+}
