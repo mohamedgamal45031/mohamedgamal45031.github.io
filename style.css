@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+.parent {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  z-index: 1;
+}
+
+#object1 {
+  position: relative;
+  background-color: #0c122c;
+  width: 1440px;
+  height: 800px;
+  z-index: 2;
+}
+
+#object2 {
+  position: absolute;
+  bottom: 0%;
+  object-fit: none;
+  object-position: bottom;
+  z-index: 3;
+}
+.fylo {
+  width: 350px;
+  height: 200px;
+  margin-top: -530px;
+  margin-left: 200px;
+  object-fit: none;
+  z-index: 4;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #1e2c69;
+  position: relative;
+}
+#fyloimg {
+  margin: 30px;
+}
+.icons {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+#i1 {
+  width: fit-content;
+  height: fit-content;
+  border: 16px solid #0c122c;
+  border-radius: 10px;
+  background-color: #0c122c;
+  display: inline;
+}
+#i2 {
+  width: fit-content;
+  height: fit-content;
+  border: 18px solid #0c122c;
+  display: inline;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #0c122c;
+}
+#i3 {
+  width: fit-content !important ;
+  height: fit-content !important ;
+  display: inline !important ;
+  border: 19px solid #0c122c !important ;
+  border-radius: 10px !important ;
+  background-color: #0c122c !important ;
+}
+.storage {
+  font-size: 14px !important ;
+  color: white !important ;
+  width: 545px !important ;
+  height: 155px !important ;
+  z-index: 4 !important ;
+  background-color: #1e2c69 !important ;
+  margin-top: -155px !important ;
+  margin-left: 800px !important ;
+  position: relative !important ;
+  border-radius: 20px !important ;
+  font-family: "Raleway", sans-serif !important ;
+}
+
+#thousand {
+  color: white !important ;
+  font-family: "Raleway", sans-serif !important ;
+  position: absolute !important ;
+  display: inline !important ;
+  vertical-align: bottom !important ;
+  margin-left: 420px !important ;
+  margin-top: -35px !important ;
+}
+
+h4 {
+  color: white !important ;
+  font-family: "Raleway", sans-serif !important ;
+  font-size: 14px !important;
+  
+}
+h3 {
+  font-family: "Raleway", sans-serif !important ;
+  font-weight: 400 !important ;
+  font-size: 14px !important ;
+}
+.inside {
+  padding: 30px !important ;
+}
+.progress-bar-bg-success {
+  color: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%)) !important ;
+  background-color: linear-gradient(
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  ) !important ;
+}
+.progress-bar{
+    
+}
