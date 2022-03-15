@@ -1,1 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="parent">
+    <div id="object1" ></div>
+    
+    <div class="fylo">
+      <img id ="fyloimg"src="images/logo.svg" alt="">
+      <div class="icons">
+        <img id="i1" src="images/icon-document.svg" alt="">
+        <img id="i2" src="images/icon-folder.svg" alt="">
+        <img id="i3" src="images/icon-upload.svg" alt="">
+    </div>
+    </div>
+    <img id="object2" src="images/bg-desktop.png" alt="">
+    <div class="storage">
+      <div id="white">
+        <svg id="message" xmlns="http://www.w3.org/2000/svg" width="180" height="130" fill="currentColor" class="bi bi-chat-right-fill" viewBox="0 0 16 16">
+          <path d="M14 0a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+        </svg>
+
+        <h2 id="number">185</h2>
+        <h5 id="left">GB Left</h5>
+      </div>
+      <div class="inside">
+         <h3>You’ve used <strong>815 GB</strong> of your storage</h3>
+         <div class="progress">
+          <div class="progress-bar " role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          <div id ="circle"></div>
+        </div>
+         <h4>0 GB</h4>
+         <h4 id="thousand">1000 GB</h4>
+
+      </div>
+     
+      
+      
+      
+    </div>
+    
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </div>
+  
+</body>
+</html>
